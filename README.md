@@ -5,7 +5,7 @@
 ## [Challenge location](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)
 
 
-## [Example](https://codepen.io/FreeCodeCamp/full/ONjoLe/)
+## [Example](https://codepen.io/FreeCodeCamp/pen/ONjoLe/)
 
 
 ## [Fulfill these stories]()
