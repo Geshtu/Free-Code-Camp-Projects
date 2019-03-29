@@ -1,208 +1,142 @@
-<!--
-
-Candidates for discussion: Nikola Tesla or Royal Rife
-
-Sections:
-
-Title
-Tagline
-Main Image
-Image Description
-Life Timeline (ul)
-(li) items, 15-25
-Quote
-Wiki Link
-<br> and my notation
-
-Extras:
-
-Parallax Main Image
-On-Click [tesla], invert page colors on/off for ~4secs
-On-Click [rife], expanding circles (waves) on/off until screen covered / it leaves the screen
-
-Notes:
-
-Single Column
-% Fluid for mobile view
-
-long 100% (in container) image,
-
-intro (my perspective, why, about)
-
-trio image, possibly hover effect to see additional information?
-
-timeline
-
-ending extra large quote over another image.
-
-background image, with texture or greek 'feel'?
-
--->
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 
 <head>
-
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>A Tribute to Ethics &amp; Aristotle | Geshtu Tribute</title>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="images/Statue_Pedestal-icon.ico">
 
-    <!-- BOOTSTRAP -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+    <meta name="theme-color" content="#fafafa">
 </head>
 
-<!-- Top Section -->
-
 <body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
 
-    <div class="container-fluid">
 
-        <div class="wrapper">
+  
+  
+  
 
-            <div class="intro col-xs-12 white-bg margin-top-25">
-                <!-- <img src="" alt="" /> -->
-                <h1>Tribute to Aristotle</h1>
-                <p>(c. 384 BCE–c. 322 BCE)</p>
-                <h2>A Pioneer of Philosophy &amp; Biology</h2>
 
-                <div class="col-md-12">
+    <div id="main">
 
-                    <img class="iwrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/672px-Aristotle_Altemps_Inv8575.jpg" />
-                
-                    <p><a href="https://en.wikipedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg">-Source Credit</a></p>
-                    
-                </div>
-                <!-- <p>A description of the image found</p> -->
+      <div class="container text-center">
 
-                <blockquote>
-                    <p>Quality is not an Act, it is a habit.</p>
+        <h1 id="title">A Tribute to Aristotle</h1>
 
-                    <footer>Aristotle</footer>
-                </blockquote>
-                <!-- <p>Good Quote 2</p> -->
+        <h5>A classical proponent of philosophy, science, & logic </h5>
 
-            </div>
+      </div>
 
-            <div class="wrapper col-xs-12">
+        <div class="container" id="img-div">
 
-                <div class="col-xs-6">
+            <img id="image" class="center" src="./img/2 - 672px-Aristotle_Altemps_Inv8575 - wikipedia commons.jpg" />
 
-                    
+            <p id="img-caption">Aristotle made large contributions to bodies of knowledge with regards to Physics, Astronomy, Geology, Psychology, and of course, Philosophy. His founded school, the Lyseum, would teach students across all of these areas of knowledge as well as Medicine, Mathematics, Music, Art, Theology, Politics, and the many sub-disciplines across each subject. Often when discussing Aristotle or his works, it can often go overlooked about the contibution he had in kicking off the start of the Hellenistic period. With strong ties to the areas around Macedon, Athens, and kingdoms along the western border of the Persian empire, he played a critical role in the education and communication of key antiquity players of his time.</p>
+        </div>
 
-                    
-                <img src="http://brewminate.com/the-concept-of-justice-in-greek-philosophy-plato-and-aristotle/" />
-                
-                </div>
-                <div class="col-xs-6">
-                   
-                </div>
+        <div class="container" id="tribute-info">
 
-                <div class="col-xs-12">
-                    <br>
-                    <img class="iwrap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_School_of_Aristotle_%28The_Lyceum%29_%287263536048%29.jpg/1199px-The_School_of_Aristotle_%28The_Lyceum%29_%287263536048%29.jpg" />
-                    <p>source information: <a href="https://en.wikipedia.org/wiki/File:The_School_of_Aristotle_(The_Lyceum)_(7263536048).jpg">https://en.wikipedia.org/wiki/File:The_School_of_Aristotle_(The_Lyceum)_(7263536048).jpg</a></p>
-                </div>
+            <h3>A Brief Overview</h3>
 
-            </div>
+            <p></p>
 
-            <!-- Timeline & Bottom -->
+            <ul>
 
-            <div class="wrapper col-xs-12">
-                <div class="timeline">
+                <li>384 BC - Aristotle was born in 384 BC at Stagira, Chalcidice (Northern Greece). His father Nicomachus was the personal physician to the King of Macedon at that time, King Amyntas. Aristotle's name meant 'The Best Purpose'.</li>
 
-                    <!-- use flexbox to create a better stacked timeline effect? -->
-                    <ul class="example-split">
-                        <li><p>384</p></li>
-                        <li><p>xBorn in 384 BC, at Stagira, Chalcidice (Northern Greece) - His name means 'The Best Purpose'</p></li>
-                    </ul>
+                <li>384 to ~365 BC - Although few details survived in writings about his childhood, it is assumed that he was able to make many important connections with, and through, the Macedonian monarchy.</li>
 
-                    <ul>
-                        <!-- Early Life x5 -->
-                        <li>384 BC - Born in 384 BC, at Stagira, Chalcidice (Northern Greece) - His name means 'The Best Purpose'. His father Nicomachus was the personal physician to the King of Macedon at that time, King Amyntas</li>
-                        <li>384 - ~365 BC Although few details survived in writings about his childhood, it is assumed that he was able to make many important connections with and through the Macedonian monarchy.</li>
-                        <li>~365 - ~347 BC In his late teens, he moved to Athens to attend Plato's Academy, and would stay in Athens for two decades.</li>
-                        <li>347 / 348 BC It is thought that two reasons may have contributed to his leaving – the first being control over the Acamdey being passed to Plato's nephew Speusippus upon Plato's death, but also that he feared anti-Macedonian sentiment prevalent in Athens.</li>
+                <li>~365 to ~347 BC - In his late teens he moved to Athens to attend Plato's Academy, and would stay in Athens for two decades.</li>
 
-                        <!-- Mid Life x5 -->
-                        <li>Upon leaving Athens, he would accompany fellow philosopher Xenocrates under the patronage of Hermias of Atarneus to the Assos/Lesbos region. This is also believed to have been a diplomatic mission of sorts at urging from Phillip II of Macedon</li>
-                        <li>~345 / 344 Moved to Mytilene on Lesbos with fellow philosopher Theophratus. On Lesbos, they would conduct much research on botany and zoology on the island.</li>
-                        <li>During his time with Hermias of Atarneus while in Assos/Lesbos, Aristotle wuld marry his daughter or niece Pythias. They would have a girl, also named Pythias. </li>
-                        <li>343 BC The Persian empire successfully captures Hermias, tortures, and then kills him. After his death, Aristotle would accept an invitation from Phillip II of Macedon to tutor his son Alexander. It would be a Great opportunity.</li>
-                        <li>Becoming the head of the royal academy of Macedon, Aristotle would not only give lessons to Alexander, but also to other important figures and kings: including Ptolemy and Cassander. He would advise Alexander on conquest and expansion on the eastern frontiers.</li>
+                <li>348 / 347 BC - It is thought that two reasons may have contributed to his leaving Athens – the first being control over the Acamdey being passed to Plato's nephew Speusippus upon Plato's death, but the second being that he feared anti-Macedonian sentiment prevalent in Athens. Upon leaving Athens, he would accompany fellow philosopher Xenocrates under the patronage of Hermeias of Atarneus to the Assos/Lesbos region. This is also believed to have been a diplomatic mission of sorts at the urging from Phillip II of Macedon.</li>
 
-                        <!-- Late Life x5 -->
-                        <li>335 BC Aristotle had returned to Athens and established the Lyceum, his own school which he would manage for over a decade. Pythias would pass, and he would become involved with Herpyllis of Stagira, who bore him a son named after his father Nicomachus, and possibly an eromenos, Palaephatus of Abydus</li>
-                        <li>335 – 323 BC is when Aristotle is to have thought to have composed many of his works, including... [][][][]</li>
-                        <li>322 Aristotle was denounced for impiety, he fled to his mother's family estate. Died in 322 BC, at Euboea, Greece</li>
+                <li>345 / 344 BC - Aristotle moved to Mytilene on Lesbos with fellow philosopher Theophratus. On Lesbos, they would conduct much research on botany and zoology. During his time with his host Hermeias of Atarneus while in Assos/Lesbos, Aristotle would marry Hermeias's daughter or niece, Pythias. They would have a girl, also naming her Pythias.</li>
 
-                        <br>
-                        <br>
+                <li>~343 BC - The Persian empire successfully captures Hermias, tortures, and then kills him. After his death, Aristotle would accept an invitation from Phillip II of Macedon to tutor his son Alexander. It would be a Great opportunity. Becoming the head of the royal academy of Macedon, Aristotle would not only give lessons to Alexander, but also to other important figures and kings: including Ptolemy and Cassander. He would advise Alexander on conquest and expansion for the eastern frontiers.</li>
 
-                        <li>Aristotle is one of the major figureheads in Western civilization, one of the greatest advocates for logic, reason, and empiricism.</li>
-                        <li>Contributed to many subjects, including: physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theater, music, rhetoric, linguistics, politics, and government.</li>
-                        <li>In addition to his encyclopedic research, writings, and teaching, he had a huge impact upon geo-politic events with the Macdeonian Kings.</li>
-                    </ul>
+                <li>335 BC - Aristotle returned to Athens and established the Lyceum, his own school, which he would manage for over a decade. His wife Pythias would pass, and he would later become involved with Herpyllis of Stagira. Herpyllis would bear him a son named after his father, Nicomachus.</li>
 
-                </div>
-            </div>
+                <li>322 BC - After Alexander's death Aristotle was denounced for impiety, and he fled to his mother's family estate. Later in 322 BC, Aristotle died of natural causes in Chalcis, Euboea.</li>
 
-            <div class="wrapper col-xs-12">
+            </ul>
+        </div>
 
-                <p>Excellent source for reference<a href="https://www.justinclagg.com/tribute-page/">https://www.justinclagg.com/tribute-page/</a></p>
+        <div class="container">
 
-                <img src="https://en.wikipedia.org/wiki/File:Aristotelis_De_Moribus_ad_Nicomachum.jpg" alt="" />
-                <img src="https://en.wikipedia.org/wiki/File:161Theophrastus_161_frontespizio.jpg" alt="">
-                <img src="https://en.wikipedia.org/wiki/File:Sanzio_01_Plato_Aristotle.jpg" alt="">
+          
+            <img id="image" class="center" src="./img/1 - The_School_of_Aristotle_(The_Lyceum)_(7263536048) - wikipedia commons.jpg" />
 
-                <p>spent some time around <a href="https://en.wikipedia.org/wiki/Lesbos">Lesbos</a></p>
+            <h3>Citations</h3>
 
-                <p>ancient road to the <a href="https://en.wikipedia.org/wiki/File:Athens_-_Ancient_road_to_Academy_1.jpg">athens academy</a></p>
+            <ul>
 
-                <p>History on <a href="https://en.wikipedia.org/wiki/Aristotle">Aristotle</a></p>
+                <li>
+                    <p>Raddato, Carrole. “The School of Aristotle (The Lyceum).” Flickr, via Wikipedia, Marcus Cyron, 4 Apr. 2012, en.wikipedia.org/wiki/File:The_School_of_Aristotle_(The_Lyceum)_(7263536048).jpg.</p>
+                    <p>Per Wiki, direct citation: <a href="https://www.flickr.com/photos/carolemage/7263536048/" id="tribute-link" target="_blank">https://www.flickr.com/photos/carolemage/7263536048/</a></p>
+                </li>
 
-                <p>Secondary reference on <a href="http://www.biography.com/people/aristotle-9188415#major-writings">Aristotle</a></p>
+                <li>
+                    <p>Wikipedia, Jastrow, 11 Nov. 2006, 17:30, <a href="en.wikipedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg">en.wikipedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg</a>.</p>
+                    <p>PalazzoAltemps |Copy of Lysippus |Bust of Aristotle. Marble, Roman copy after a Greek bronze original from 330 BC; the alabaster mantle is a modern addition. |Unspecified |Former Ludovisi Collection |Inv. 8575 |Ground floor</p>
+                </li>
 
-                <div class="quoteclass">
+                <li>
 
-                    <h2>This is a powerful quote</h2>
-                    <p>-Quoted</p>
+                    <p>T. (2007, June 03). Raphael School of Athens. Retrieved March 21, 2019, from <a href="https://commons.wikimedia.org/wiki/File:Raphael_School_of_Athens.jpg">https://commons.wikimedia.org/wiki/File:Raphael_School_of_Athens.jpg</a></p>
+                    <p>Information |Description= Raphael's "School of Athens" |Source=wikimedia commons |Date=1505 |Author=Raphael |Permission=PDArt |other_versions=Yes [http://commons.wikimedia.org/wiki/Image:Sanzio_01.jpg] this is a cropped version</p>
+                </li>
 
-                </div>
+                <li>
 
-            </div>
+                    <p>Shields, Christopher, "Aristotle", The Stanford Encyclopedia of Philosophy (Winter 2016 Edition), Edward N. Zalta (ed.), URL =
+                        <a href="https://plato.stanford.edu/archives/win2016/entries/aristotle/">https://plato.stanford.edu/archives/win2016/entries/aristotle/</a>.</p>
+                </li>
 
-            <footer>
+                <li>
 
-                <div class="wrapper col-xs-12 pb-20">
-                    <h2>Image Sources:</h2>
-                    <ul>
+                    <p>“Aristotle.” Wikipedia, Wikimedia Foundation, 7 Mar. 2019, <a href="en.wikipedia.org/wiki/Aristotle">en.wikipedia.org/wiki/Aristotle</a>. </p>
+                </li>
 
-                        <li>Primary Header Image - <b>The Owner, <a href="#">http://www.thewebsite.com</a></b></li>
-                        <li>Trio Image 1 - <b>Biography, <a href="https://www.biography.com/people/aristotle-9188415">https://www.biography.com/people/aristotle-9188415</a></b></li>
-                        <li>Trio Image 2 - <b>Wikipedia, <a href="https://en.wikipedia.org/wiki/Aristotle">https://en.wikipedia.org/wiki/Aristotle</a></b></li>
-                        <li>Trio Image 3 - <b>Stanford, <a href="https://plato.stanford.edu/entries/aristotle/">https://plato.stanford.edu/entries/aristotle/</a></b></li>
-
-                    </ul>
-                </div>
-
-            </footer>
-
+            </ul>
         </div>
 
     </div>
 
+    <!-- scripts -->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
