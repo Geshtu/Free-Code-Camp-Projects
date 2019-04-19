@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>FCC RWD - Form Poject</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <div class="text-center">
+
+        <h1 id="title">FAVORITETHINGS!&trade;&reg; Giveaway</h1>
+
+        <p id="description">Share with us some of your favorite things, and be entered for a chance to win a mystery box of <strong>FAVORITETHINGS!&trade;&reg;*</strong></p>
+
+        <form id="survey-form">
+
+            <div class="row">
+                <label id="name-label" for="name">Your Name</label>
+                <input id="name" placeholder="Arlandria Rosemary" required>
+            </div>
+            <div class="row">
+                <label id="email-label" for="email">Your Email Address</label>
+                <input id="email" type="email" placeholder="arlandria@rosemary.com" required>
+            </div>
+            <div class="row">
+                <label id="number-label" for="number">What is your favorite number? <br>(between 1 and 100)  </label>
+                <input id="number" type="number" placeholder="77" min="0" max="100">
+            </div>
+
+            <div class="row">
+                <label for="pets">What is your favorite type of pet?</label>
+                <select id="dropdown" name="animals">
+
+                    <option>Alligator</option>
+                    <option>Bird</option>
+                    <option>Cat</option>
+                    <option>Dog</option>
+                    <option>Egret</option>
+                    <option>Ferret</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="cuisine">What is your favorite region for cuisine?</label>
+                <ul>
+                    <li><input name="food" value="Italian" type="radio"></input>Italian</li>
+                    <li><input name="food" value="Spanish" type="radio"></input>Spanish</li>
+                    <li><input name="food" value="Chinese" type="radio"></input>Chinese</li>
+                    <li><input name="food" value="Indian" type="radio"></input>Indian</li>
+                    <li><input name="food" value="French" type="radio"></input>French</li>
+                    <li><input name="food" value="Japanese" type="radio"></input>Japanese</li>
+                    <li><input name="food" value="Canadian" type="radio"></input>Canadian</li>
+                </ul>
+            </div>
+            <div class="row">
+                <label for="hobbies">What are some of your favorite hobbies?</label>
+                <ul name="hobbies">
+                    <li><input value="Art" type="checkbox"></input>Art</li>
+                    <li><input value="Exercise" type="checkbox"></input>Exercise</li>
+                    <li><input value="TV" type="checkbox"></input>TV</li>
+                    <li><input value="Video Games" type="checkbox"></input>Video Games</li>
+                    <li><input value="Surfing the Internet" type="checkbox"></input>Surfing the Internet</li>
+                    <li><input value="Reading" type="checkbox"></input>Reading</li>
+                    <li><input value="Cooking" type="checkbox"></input>Cooking</li>
+                    <li><input value="Researching" type="checkbox"></input>Researching</li>
+                    <li><input value="Coding" type="checkbox"></input>Coding</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <label for="comments">Additional Comments</label>
+                <textarea></textarea>
+            </div>
+
+            <div class="row">
+                <button id="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+            <p class="notice"><em>*Rules and conditions apply. Should FAVORITETHINGS, LLC turn out to be made up for a FreeCodeCamp project, all entries will be forfeit.</em></p>
+
+        </form>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
