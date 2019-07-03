@@ -1,0 +1,143 @@
+body {
+  
+background: linear-gradient(223deg, #246655, #05dbce, #ca13ea);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: white;
+    max-width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    width: 24%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #bbb;
+    margin-right: 1%;
+    max-width: 24%;
+    border-style: inset !important;
+}
+
+button.doubleButton {
+    width: 49%;
+    margin-right: 1%;
+    max-width: 49%;
+}
+
+button.delete {
+    background-color: red;
+    color: white;
+}
+
+.display {
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    border: 1px solid #bbb;
+}
+
+.display span {
+    text-align: right;
+}
+
+.double {
+    x2 normal width
+}
+
+@media screen (max-width: px) {
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+button .doubleButton {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 3 1 auto;
+    -ms-flex: 3 1 auto;
+    flex: 3 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+button {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.margin-one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-two {
+    margin-bottom: 30px;
+}
