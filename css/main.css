@@ -1,0 +1,19 @@
+
+
+.streamerImg {
+	max-width:100px;
+}
+
+
+.box * {
+	float:left;
+}
+
+.box {
+	clear:both;
+	margin-top:10px;
+	margin-bottom:10px;
+
+	display:inline-block;
+	width:100%;
+}
