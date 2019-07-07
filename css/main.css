@@ -212,6 +212,7 @@ h1 {
 
 
 .profpic {
+    max-width:400px;
     margin-top:10px;
     margin-bottom:15px;
 }
