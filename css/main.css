@@ -1,0 +1,58 @@
+
+.container {
+	max-width:400px;
+}
+
+
+.red {
+
+}
+
+.green {
+
+}
+
+
+
+
+.quad-up-left {
+	width:100%;
+	height:50px;
+	background-color:lightgreen;
+	/*
+	background-color:green;
+	*/
+}
+
+.quad-up-right {
+
+	width:100%;
+	height:50px;
+	background-color:lightyellow;
+	/*
+	background-color:yellow;
+	*/
+}
+
+.quad-down-left {
+	width:100%;
+	height:50px;
+	background-color:lightblue;
+	/*
+	background-color:blue;
+	*/
+
+}
+
+.quad-down-right {
+	width:100%;
+	height:50px;
+	background-color:pink;
+	/*
+	background-color:red;
+	*/
+
+}
+
+
+
