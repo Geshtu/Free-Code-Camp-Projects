@@ -137,6 +137,10 @@ textarea {
     /* position:relative; */
 }
 
+.nav-link:hover {
+    color: #efa442 !important;
+}
+
 .navbar-nav .nav-item .nav-link {
     color:black;
 }
@@ -264,7 +268,7 @@ footer .container {
     #header-img {
         margin-left:50px;
     }
-    
+
     .navbar-toggler {
         background-color: #efa442;
     }
