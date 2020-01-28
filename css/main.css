@@ -1,0 +1,61 @@
+
+
+.breakTime {
+	text-align:center;
+
+}
+
+.mainTime {
+	text-align:center;
+
+}
+
+.plus, .minus {
+	text-align:center;
+
+}
+
+.theTimer {
+
+}
+
+.backgroundOverlay {
+
+}
+
+.theBreak {
+	margin-bottom:0;
+}
+
+.theTime {
+	text-align:center;
+	margin-top:50px;
+}
+
+.clockText {
+	margin:0;
+	font-size:10px;
+}
+
+
+.initial-timer, .theTimer {
+	max-width:600px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+
+.theTimerStuff {
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	border-color:#000;
+	border:3px solid;
+	text-align:center;
+	margin:0 auto;
+}
+
+.controls a {
+	margin-left:5px;
+	margin-right:5px;
+}
