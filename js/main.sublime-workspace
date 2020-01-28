@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wiki",
+				"wikiApiUrlFinal"
+			],
+			[
+				"input",
+				"inputUpdate"
+			],
+			[
+				"user",
+				"userOutput"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"get",
+				"getCurrentPosition"
+			],
+			[
+				"p",
+				"p\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 59.0,
+		"last_filter": "eight",
+		"selected_items":
+		[
+			[
+				"eight",
+				"Snippet: AMC | column eight empty"
+			],
+			[
+				"grid",
+				"Snippet: AMC | grid-wrapper > grid-container"
+			],
+			[
+				"eigh",
+				"Snippet: AMC | column eight empty"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/njohnson/Desktop/live-current-4-27.html",
+		"/Users/njohnson/Desktop/4.20 old-main-logo.jpg",
+		"/Users/njohnson/Downloads/flag icons.html",
+		"/Users/njohnson/Desktop/index.html",
+		"/Users/njohnson/Desktop/Categories API",
+		"/Users/njohnson/Downloads/__ACC chat/acc-floorplans2.js",
+		"/Users/njohnson/Downloads/__ACC chat/acc-floorplan_data2.js",
+		"/Users/njohnson/Desktop/my-reset.html",
+		"/Users/njohnson/Desktop/Internship-modal.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/api/objects/product.php",
+		"/Users/njohnson/Documents/___nate-main/__Websites/api/product/read.php",
+		"/Users/njohnson/Documents/___nate-main/__Websites/api/config/database.php",
+		"/Users/njohnson/Downloads/exhibitor-leasing.js",
+		"/Volumes/Lexar/___Websites/ss/__www/stylesheets/main_.css",
+		"/Volumes/Lexar/___Websites/ss/__www/index.html",
+		"/Users/njohnson/Desktop/__new scans/PS system guide.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-wiki-viewer-master/css/main.css",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-wiki-viewer-master/wiki-viewer.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-wiki-viewer-master/js/main.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-js-calc-master/fcc-calc.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-js-calc-master/css/main.css",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-js-calc-master/js/main.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-local-weather-master/js/main.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-quote-machine-master/js/main.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-quote-machine-master/fcc-quote-machine.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-quote-machine-master/css/main.css",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_GH/fcc-quote-machine-master/js/quotes.js",
+		"/Users/njohnson/Downloads/ACC_Build_20180117/vtourdata/vtour.js",
+		"/Users/njohnson/Desktop/updated-footer-snippet.html",
+		"/Volumes/Lexar/___Websites/ldp/_Structure/z_Hidden page for business analysis/business analysis-index.html",
+		"/Volumes/Lexar/___Websites/wnj/__Structure/0-Home/n-index.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/z_Testing-z2/n/wp-content/themes/twentyseventeen-child-theme/njd-pg-blog-category/wp-config.html",
+		"/Users/njohnson/Documents/___nate-main/__Projects/___to-do-replace-after-july/_Dashboard/testing.html",
+		"/Users/njohnson/Desktop/id admission div replacement.html",
+		"/Users/njohnson/Downloads/js.web-lfi.js",
+		"/Users/njohnson/Desktop/js.web.js",
+		"/Users/njohnson/Desktop/app_app.min.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/____AMC-wiki/LocalSettings.php",
+		"/Users/njohnson/Library/Application Support/Sublime Text 3/Packages/User/amc-gwgc-eight.sublime-snippet",
+		"/Users/njohnson/Downloads/agents.js",
+		"/Users/njohnson/Desktop/updated-shop-page.html",
+		"/Users/njohnson/Library/Application Support/Sublime Text 3/Packages/User/amc-column-eight-empty.sublime-snippet",
+		"/Users/njohnson/Library/Application Support/Sublime Text 3/Packages/User/amc-gridwrapper-gridcontainer.sublime-snippet",
+		"/Users/njohnson/Library/Application Support/Sublime Text 3/Packages/User/initial-snippets",
+		"/Users/njohnson/Desktop/agents.js",
+		"/Users/njohnson/Downloads/hospitality-form.html",
+		"/Users/njohnson/Documents/___nate-main/oyr-resource-signup.html",
+		"/Users/njohnson/Documents/___nate-main/deleted tenant newsletter.html",
+		"/Users/njohnson/Documents/___nate-main/js-inject.js",
+		"/Users/njohnson/Desktop/_2",
+		"/Users/njohnson/Desktop/_1",
+		"/Users/njohnson/Downloads/sponsorList.cvn",
+		"/Users/njohnson/Desktop/___qs for ben/compilation-angular-file.js",
+		"/Users/njohnson/Desktop/_______/styles.css",
+		"/Users/njohnson/Downloads/a885584a34f0d7c2b0a1-2dfc0d496e181287b454f5adc8e92e69a94dd3e7/hubspot.boilerplate.css",
+		"/Users/njohnson/Desktop/_______/hubspot-lfi-base",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - eSignature.html",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - Details-History.html",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - Main.html",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - New and Existing Employee.html",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - New Employee.html",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - Existing Employee.html",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - Main",
+		"/Users/njohnson/Desktop/TLR-Dash/TLR Guts - 3.html",
+		"/Users/njohnson/Desktop/acc-app.js",
+		"/Users/njohnson/Desktop/acc-floorplans.js",
+		"/Users/njohnson/Desktop/acc-floorplan_data.js",
+		"/Users/njohnson/atlconventioncenter/js/jquery.tablesorter.min.js",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/_bootstrap/js/fcc-calc.js",
+		"/Users/njohnson/Desktop/apparel-exhibitor-prospect.js",
+		"/Users/njohnson/Desktop/apparel-exhibitor-prospect5.js",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/append-by-id.js",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/replace-by-id.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/__AmericasMart.com/www_reference/includes/js/leasing.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/__AmericasMart.com/www_reference/includes/js/js.web.js",
+		"/Users/njohnson/Desktop/apparel-exhibitor-prospect-form.html",
+		"/Users/njohnson/Documents/___nate-main/__Websites/__AmericasMart.com/www_reference/includes/js/exhibitor-leasing.js",
+		"/Users/njohnson/Documents/___nate-main/__Websites/__AmericasMart.com/www_reference/includes/js/agents.js",
+		"/Users/njohnson/Downloads/branding_code/stylesheet.asp",
+		"/Users/njohnson/Downloads/branding_code/style.css",
+		"/Users/njohnson/Downloads/branding_code/master_header.asp",
+		"/Users/njohnson/Downloads/branding_code/master_footer.asp",
+		"/Users/njohnson/Documents/___nate-main/__Websites/__AmericasMart.com/__amc-static-site-master/includes/css/bootstrap.css",
+		"/Users/njohnson/Documents/___nate-main/__Websites/__AmericasMart.com/__amc-static-site-master/includes/css/styles.css",
+		"/Users/njohnson/Desktop/www/includes/js/js.web.js",
+		"/Users/njohnson/Desktop/www/includes/js/app.min.js",
+		"/Users/njohnson/Downloads/blogdotamericasmartdotcom.wordpress.com-2017-08-10-12_23_15/americasmartblog.wordpress.2017-08-10.post_type-post.start_date-2017-01-01.end_date-2017-02-28.001.xml",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/_sales-travel-leads-breakout.html",
+		"/Users/njohnson/Desktop/www/includes/js/agents.js",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/simple-form.html",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/simple-form-live.html",
+		"/Users/njohnson/Documents/___nate-main/_Library/Coding - My Snippets/modal-window.html",
+		"/Users/njohnson/Desktop/www/includes/js/market.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/xhr-xdr-adapter.js",
+		"/Users/njohnson/Library/Caches/Cleanup At Startup/Transmit/0993D6ED-221D-455E-9A90-90F7394B88B1/app.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/_072817_app.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/moment-tz.js",
+		"/Users/njohnson/Desktop/www/includes/js/moment.js",
+		"/Users/njohnson/Desktop/www/includes/js/scripts.js",
+		"/Users/njohnson/Desktop/www/includes/js/sha256.js",
+		"/Users/njohnson/Desktop/www/includes/js/lookbook-2016.js",
+		"/Users/njohnson/Desktop/www/includes/js/leasing.js",
+		"/Users/njohnson/Desktop/www/includes/js/jquery.xdomainrequest.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/exhibitorjobs.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/factories.js",
+		"/Users/njohnson/Desktop/www/includes/js/jobs.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/jquery.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/exhibitor-temporaries.js",
+		"/Users/njohnson/Desktop/www/includes/js/exhibitor.js",
+		"/Users/njohnson/Desktop/www/includes/js/events.js",
+		"/Users/njohnson/Desktop/www/includes/js/exhibitor-categories.js",
+		"/Users/njohnson/Desktop/www/includes/js/exhibitor-leasing.js",
+		"/Users/njohnson/Desktop/www/includes/js/apparel-leasing.js",
+		"/Users/njohnson/Desktop/www/includes/js/careers.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/category_search.js",
+		"/Users/njohnson/Desktop/www/includes/js/angular.min.js",
+		"/Users/njohnson/Desktop/www/includes/js/announcements.js",
+		"/Users/njohnson/Desktop/www/includes/js/_exhibitor-leasing.js",
+		"/Users/njohnson/Desktop/www/includes/js/amc_app.js",
+		"/Users/njohnson/Desktop/www/includes/js/_072017_market.min.js",
+		"/Users/njohnson/Documents/___nate-main/__Projects/___to-do-replace-after-july/to-do-dashboard.html",
+		"/Users/njohnson/Documents/___nate-main/__Projects/___to-do-replace-after-july/to-do-dashboard/init-2.min.js",
+		"/Users/njohnson/Documents/___nate-main/z___parsing/modal-window.html",
+		"/Users/njohnson/Desktop/app.js",
+		"/Users/njohnson/Desktop/market-panel.html",
+		"/Users/njohnson/Desktop/old/market-panel.html",
+		"/Users/njohnson/Desktop/_IMPF/js.web.js",
+		"/Users/njohnson/Desktop/LFI_IFRAME.HTML"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 71.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
