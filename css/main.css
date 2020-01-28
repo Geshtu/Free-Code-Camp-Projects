@@ -1,0 +1,19 @@
+
+
+.container {
+	max-width:450px;
+}
+
+
+.odd, .even {
+	width:32%;
+	height:100px;
+}
+
+.odd {
+	background-color:green;
+}
+
+.even {
+	background-color:blue;
+}
