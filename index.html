@@ -1,0 +1,480 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <style>  
+    @media only screen and (min-width:601px) {
+      button {
+          margin-bottom:25px;
+      }
+  }
+  </style>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
+  <link rel="stylesheet" href="css/main.css?index=1">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+<nav id="navbar" class="d-flex flex-column align-items-stretch">
+  <header>Code Snippets</header>
+
+  <ul>
+    <li>
+      <a href="#Sticky_Nav" class="nav-link">Sticky Nav</a>
+    </li>
+    <li>
+      <a href="#Social_Icons" class="nav-link">Social Icons</a>
+    </li>
+    <li>
+      <a href="#Hero_Swiper" class="nav-link">Hero Swiper</a>
+    </li>
+    <li>
+      <a href="#Cards" class="nav-link">Cards</a>
+    </li>
+    <li>
+      <a href="#Generic_Body" class="nav-link">Generic Body</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+<div class="container">
+
+<main id="main-doc">
+
+  <!-- one section -->
+  <section class="main-section" id="Sticky_Nav">
+      <header>Sticky Nav</header>
+  
+      <p>The purpose of this sticky nav snippet is to create a Bootstrap 4 top-navigation that is sticky, with a logo, and with a modal-hamburger icon for mobile.</p>
+  
+      <div class="">
+        <pre>
+          <code class="language-html" id="code-1">
+
+              &lt;!-- 1) Sticky Nav, Modal in Mobile --&gt;
+              &lt;style&gt;
+                  .modal {
+                      background-color: white;
+                  }
+                  
+                  .modal-dialog {
+                      margin: 0;
+                  }
+                  
+                  .modal-content {
+                      border: 0 white;
+                  }
+                  
+                  .modal-body {
+                      border-top: 1px solid #dee2e6;
+                  }
+              &lt;/style&gt;
+          
+              &lt;header&gt;
+          
+                  &lt;nav class=&quot;navbar navbar-expand-md bg-primary navbar-dark fixed-top&quot;&gt;
+                      &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Navbar&lt;/a&gt;
+          
+                      &lt;!-- &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;modal&quot; data-target=&quot;#modalNavbar&quot;&gt;
+                              &lt;span class=&quot;navbar-toggler-icon&quot; style=&quot;z-index:2050;&quot;&gt;X&lt;/span&gt;
+                          &lt;/button&gt; --&gt;
+                      &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;collapsibleNavbar&quot;&gt;
+                          &lt;ul class=&quot;navbar-nav&quot;&gt;
+                              &lt;li class=&quot;nav-item&quot;&gt;
+                                  &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class=&quot;nav-item&quot;&gt;
+                                  &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                              &lt;/li&gt;
+                              &lt;li class=&quot;nav-item&quot;&gt;
+                                  &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                              &lt;/li&gt;
+                          &lt;/ul&gt;
+                      &lt;/div&gt;
+          
+                      &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;modal&quot; data-target=&quot;#modalNavbar&quot;&gt;
+                          &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+                      &lt;/button&gt;
+          
+                  &lt;/nav&gt;
+          
+                  &lt;!-- The Modal --&gt;
+                  &lt;div class=&quot;modal&quot; id=&quot;modalNavbar&quot;&gt;
+                      &lt;div class=&quot;modal-dialog&quot;&gt;
+                          &lt;div class=&quot;modal-content&quot;&gt;
+          
+                              &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;&gt;
+                                  &lt;h3 class=&quot; display-1&quot;&gt;&amp;times;&lt;/h3&gt;&lt;/button&gt;
+          
+                              &lt;!-- Modal Logo --&gt;
+                              &lt;div class=&quot;&quot;&gt;
+          
+                                  &lt;p class=&quot;text-center&quot;&gt;&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Navbar&lt;/a&gt;&lt;/p&gt;
+                              &lt;/div&gt;
+          
+                              &lt;!-- Modal body --&gt;
+                              &lt;div class=&quot;modal-body&quot;&gt;
+          
+                                  &lt;ul class=&quot;navbar-nav&quot;&gt;
+                                      &lt;li class=&quot;nav-item text-center&quot;&gt;
+                                          &lt;a class=&quot;nav-link display-4&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                                      &lt;/li&gt;
+                                      &lt;li class=&quot;nav-item text-center&quot;&gt;
+                                          &lt;a class=&quot;nav-link display-4&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                                      &lt;/li&gt;
+                                      &lt;li class=&quot;nav-item text-center&quot;&gt;
+                                          &lt;a class=&quot;nav-link display-4&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                                      &lt;/li&gt;
+                                  &lt;/ul&gt;
+                              &lt;/div&gt;
+          
+                              &lt;!-- Modal footer --&gt;
+                              &lt;div class=&quot;modal-footer&quot;&gt;
+          
+                                  Maybe social media instead?
+          
+                                  &lt;!-- &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt; --&gt;
+                              &lt;/div&gt;
+          
+                          &lt;/div&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+          
+                  &lt;!-- fixes asbolute positioning of next element--&gt;
+                  &lt;div class=&quot;mb-5&quot;&gt;&amp;nbsp;&lt;/div&gt;
+          
+              &lt;/header&gt;
+          
+
+
+          </code>
+        </pre>
+      </div>
+
+      <button class="code" id="code" onclick="copyTheCode()">Copy Code Snippet</button>
+  
+      <p>Requirements for Snippet:</p>
+  
+      <ul>
+        <li>Bootstrap 4</li>
+        <li>Prism JS Library</li>
+        <li>Custom CSS to merge</li>
+        <br>
+        <li><em>Note: Mobile modal footer is empty (combine with preferred social icons)</em></li>
+      </ul>
+    </section>
+    <!-- one section -->
+    <section class="main-section" id="Social_Icons">
+      <header>Social Icons</header>
+  
+      <p>This social icons snippet uses font-awesome to generate a few icons with hover states.</p>
+     
+  
+      <div class="">
+        <pre>
+          <code class="language-html" id="code-2">
+
+              &lt;!-- 2) Social Icons --&gt;
+
+              &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+              &lt;style&gt;
+                  .fa-github {
+                      background: black !important;
+                      color: white !important;
+                  }
+                  
+                  .fa-github:hover {
+                      text-decoration: none !important;
+                      opacity: .8;
+                  }
+                  
+                  .fa-linkedin {
+                      background: #007bb5 !important;
+                      color: white !important;
+                  }
+                  
+                  .fa-linkedin:hover {
+                      text-decoration: none !important;
+                      opacity: .8;
+                  }
+                  
+                  .fa-rss {
+                      background: #ff6600 !important;
+                      color: white !important;
+                  }
+                  
+                  .fa-rss:hover {
+                      text-decoration: none !important;
+                      opacity: .8;
+                  }
+                  
+                  .fa-free-code-camp {
+                      background: #006400 !important;
+                      color: white !important;
+                  }
+                  
+                  .fa-free-code-camp:hover {
+                      text-decoration: none !important;
+                      opacity: .8;
+                  }
+              &lt;/style&gt;
+          
+              &lt;a href=&quot;#&quot; class=&quot;fa fa-linkedin&quot;&gt;&lt;/a&gt;
+              &lt;a href=&quot;#&quot; class=&quot;fa fa-github&quot;&gt;&lt;/a&gt;
+              &lt;a href=&quot;#&quot; class=&quot;fa fa-free-code-camp&quot;&gt;&lt;/a&gt;
+              &lt;a href=&quot;#&quot; class=&quot;fa fa-rss&quot;&gt;&lt;/a&gt;
+          
+
+          </code>
+
+        </pre>
+
+      </div>
+
+      <button onclick="copyTheCode()">Copy Code Snippet</button>
+  
+      <p>Requirements for Snippet:</p>
+  
+      <ul>
+        <li>Font Awesome CSS Library</li>
+        <li>Custom CSS to Merge</li>
+      </ul>
+    </section>
+  <!-- one section -->
+  <section class="main-section" id="Hero_Swiper">
+    <header>Hero Swiper</header>
+
+    <p>The purpose of this snippet is to create a Bootstrap 4 hero swiper.</p>
+    
+  
+    <div class="">
+        <pre>
+          <code class="language-html" id="code-3">
+
+              &lt;style&gt;
+              /* Make the image fully responsive */
+              
+              .carousel-inner img {
+                  width: 100%;
+                  height: 100%;
+              }
+          &lt;/style&gt;
+      
+          &lt;div class=&quot;container&quot;&gt;
+      
+              &lt;div id=&quot;theCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+      
+                  &lt;!-- Indicators --&gt;
+                  &lt;ul class=&quot;carousel-indicators&quot;&gt;
+                      &lt;li data-target=&quot;#theCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+                      &lt;li data-target=&quot;#theCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+                      &lt;li data-target=&quot;#theCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+      
+                  &lt;!-- The slideshow --&gt;
+                  &lt;div class=&quot;carousel-inner&quot;&gt;
+                      &lt;div class=&quot;carousel-item active&quot;&gt;
+                          &lt;img src=&quot;http://placecorgi.com/1100/500&quot; alt=&quot;Los Angeles&quot; width=&quot;1100&quot; height=&quot;500&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;carousel-item&quot;&gt;
+                          &lt;img src=&quot;http://placecorgi.com/1100/500&quot; alt=&quot;Chicago&quot; width=&quot;1100&quot; height=&quot;500&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;carousel-item&quot;&gt;
+                          &lt;img src=&quot;http://placecorgi.com/1100/500&quot; alt=&quot;New York&quot; width=&quot;1100&quot; height=&quot;500&quot;&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+      
+                  &lt;!-- Left and right controls --&gt;
+                  &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#theCarousel&quot; data-slide=&quot;prev&quot;&gt;
+                      &lt;span class=&quot;carousel-control-prev-icon&quot;&gt;&lt;/span&gt;
+                  &lt;/a&gt;
+                  &lt;a class=&quot;carousel-control-next&quot; href=&quot;#theCarousel&quot; data-slide=&quot;next&quot;&gt;
+                      &lt;span class=&quot;carousel-control-next-icon&quot;&gt;&lt;/span&gt;
+                  &lt;/a&gt;
+              &lt;/div&gt;
+      
+          &lt;/div&gt;
+
+          </code>
+
+        </pre>
+
+      </div>
+
+      <button onclick="copyTheCode()">Copy Code Snippet</button>
+
+    <p>Requirements for Snippet:</p>
+
+    <ul>
+      <li>Bootstrap 4</li>
+      <li>Custom CSS to Merge</li>
+    </ul>
+  </section>
+  <!-- one section -->
+  <section class="main-section" id="Cards">
+    <header>Cards</header>
+
+    <p>This snippet is meant to be a template-placeholder for a 3-card layout in Bootstrap 4.</p>
+
+  
+    <div class="">
+        <pre>
+          <code class="language-html" id="code-4">
+
+              &lt;div class=&quot;container&quot;&gt;
+
+              &lt;div class=&quot;card-deck mb-3 text-center&quot;&gt;
+      
+                  &lt;div class=&quot;card mb-4 box-shadow&quot;&gt;
+                      &lt;div class=&quot;card-header&quot;&gt;
+                          &lt;h4 class=&quot;my-0 font-weight-normal&quot;&gt;Option&lt;/h4&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;card-body&quot;&gt;
+      
+                          &lt;img src=&quot;http://placecorgi.com/250/250&quot; class=&quot;rounded-circle mw-100&quot; alt=&quot;&quot;&gt;
+                          &lt;h1 class=&quot;card-title pricing-card-title&quot;&gt;$999 &lt;small class=&quot;text-muted&quot;&gt;/ mo&lt;/small&gt;&lt;/h1&gt;
+                          &lt;ul class=&quot;list-unstyled mt-3 mb-4&quot;&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                          &lt;/ul&gt;
+                          &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-block btn-outline-primary&quot;&gt;Learn More&lt;/button&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;card mb-4 box-shadow&quot;&gt;
+                      &lt;div class=&quot;card-header&quot;&gt;
+                          &lt;h4 class=&quot;my-0 font-weight-normal&quot;&gt;Option&lt;/h4&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;card-body&quot;&gt;
+      
+                          &lt;img src=&quot;http://placecorgi.com/250/250&quot; class=&quot;rounded-circle mw-100&quot; alt=&quot;&quot;&gt;
+                          &lt;h1 class=&quot;card-title pricing-card-title&quot;&gt;$999 &lt;small class=&quot;text-muted&quot;&gt;/ mo&lt;/small&gt;&lt;/h1&gt;
+                          &lt;ul class=&quot;list-unstyled mt-3 mb-4&quot;&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                          &lt;/ul&gt;
+                          &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-block btn-outline-primary&quot;&gt;Learn More&lt;/button&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;card mb-4 box-shadow&quot;&gt;
+                      &lt;div class=&quot;card-header&quot;&gt;
+                          &lt;h4 class=&quot;my-0 font-weight-normal&quot;&gt;Option&lt;/h4&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;card-body&quot;&gt;
+      
+                          &lt;img src=&quot;http://placecorgi.com/250/250&quot; class=&quot;rounded-circle mw-100&quot; alt=&quot;&quot;&gt;
+                          &lt;h1 class=&quot;card-title pricing-card-title&quot;&gt;$999 &lt;small class=&quot;text-muted&quot;&gt;/ mo&lt;/small&gt;&lt;/h1&gt;
+                          &lt;ul class=&quot;list-unstyled mt-3 mb-4&quot;&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                              &lt;li&gt;Interersting thing&lt;/li&gt;
+                          &lt;/ul&gt;
+                          &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-block btn-outline-primary&quot;&gt;Learn More&lt;/button&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+      
+          &lt;/div&gt;
+      
+
+          </code>
+
+        </pre>
+
+      </div>
+
+      <button onclick="copyTheCode()">Copy Code Snippet</button>
+
+    <p>Requirements for Snippet:</p>
+
+    <ul>
+      <li>Bootstrap 4</li>
+    </ul>
+  </section>
+  <!-- one section -->
+  <section class="main-section" id="Generic_Body">
+    <header>Generic Body</header>
+
+    <p>This is a placeholder snippet for a Bootstrap 4 'block' row, with a section header and text.</p>
+
+  
+    <div class="">
+        <pre>
+          <code class="language-html" id="code-5">
+
+              &lt;div class=&quot;container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                  &lt;div class=&quot;col-md-12&quot;&gt;
+                      &lt;h3&gt;Lorem Ipsum&lt;/h3&gt;
+                      &lt;p&gt;Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam aliquet feugiat felis, eget iaculis arcu sagittis et. Donec at ante nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum lacus in magna elementum, vel hendrerit leo consectetur. Curabitur vitae ex dolor. In a elementum eros. Suspendisse posuere ullamcorper arcu sit amet maximus. Fusce vel leo auctor, rutrum arcu id, rhoncus nisi. Duis feugiat ut est nec vehicula.&lt;/p&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+      
+
+          </code>
+
+        </pre>
+
+      </div>
+
+      <button onclick="copyTheCode()">Copy Code Snippet</button>
+
+    <p>Requirements for Snippet:</p>
+
+    <ul>
+      <li>Bootstrap 4</li>
+    </ul>
+  </section>
+
+
+</main>
+
+</div>
+
+
+
+  <!-- scripts -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/vendor/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
