@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Updates:
+
+
+1 - add background image dependant upon sky status (and/or placeholder)
+
+2 - weather icons
+
+3 - farenheit vs celcius
+
+4 - show/hide additional information
+-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Local Weather by Geshtu | Free Code Camp</title>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- BOOTSTRAP -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <link rel="shortcut icon" href="placeholder-cio.png">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="text-center">
+
+        <h1>Local Weather</h1>
+
+
+        <h3>Click "Allow" for the browser to pull your local weather data</h3>
+
+        <img class="hide" id="weathericon" src=""></img>
+
+        <p><b>Location: </b><span id="location"></span></p>
+        <p><b>Temperature: </b><span id="temperature"></span></p>
+        <p><b>Sky: </b><span id="status"></span></p>
+        <p><b>Wind Speed: </b><span id="wind"></span></p>
+
+        <br><br><br><br>
+
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span id="temptoggle" class="slider round"></span>
+        </label>
+
+        <p>Toggle to display in <span href="#" id="temp-type">Fahrenheight</span></p>
+
+        <p id="notice"></p>
+
+    </div>
+
+    </div>
+
+
+    <footer>
+
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
